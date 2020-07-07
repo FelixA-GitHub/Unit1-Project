@@ -61,7 +61,7 @@ function printQuote($quotes){
 
 
   if(isset($randomQuote['citation'])){
-    $results[ = "<span class='citation'>" . $randomQuote['citation'] . "</span>";
+    $results = "<span class='citation'>" . $randomQuote['citation'] . "</span>";
   } else{
       $results = "<span class='citation'>" . 'Unknown' . "</span>";
   }
