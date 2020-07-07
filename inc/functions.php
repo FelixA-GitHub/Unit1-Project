@@ -76,5 +76,4 @@ function printQuote($quotes){
 
 echo $results;
 
-
 ?>
